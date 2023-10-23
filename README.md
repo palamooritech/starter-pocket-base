@@ -3,7 +3,7 @@
 PocketBase is an open-source backend framework built in Go. It offers features such as an embedded SQLite database, real-time subscriptions, built-in authentication management, a user-friendly dashboard UI, and a simple REST-ish API. It's designed to provide a secure and cost-effective foundation for web applications.
 
 # Intro
-This is a starter template, to extend Pocketbase as a GO framework. Just clone it and extend it as per your needs.
+A starter template, to extend Pocketbase as a GO framework. Just clone it and extend it as per your needs.
 
 ## Getting Started
 
@@ -21,29 +21,6 @@ To use PocketBase, you can clone this repository and add your custom paths. Here
   - **adapters/**: This directory may contain various adapters, and it includes a subdirectory `pocketbase/` for PocketBase-related code.
 
   - **domain/**: This directory houses the core and main components of your application.
-
-project_root/
-│
-├── main.go
-│
-├── models/
-│   ├── (model files)
-│
-├── helpers/
-│   ├── (helper and middleware files)
-│
-├── pkg/
-│   ├── adapters/
-│   │   ├── pocketbase/
-│   │   │   ├── (PocketBase-related files)
-│   │
-│   ├── domain/
-│   │   ├── (core and main component files)
-│
-├── README.md
-│
-├── other_project_files...
-
 
 ## Usage
 
